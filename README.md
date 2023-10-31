@@ -34,7 +34,6 @@ let hin = `
 let hout = wdhm(hin)
 console.log(hout)
 // => <html><head></head><body>abc</body></html>
-
 ```
 
 ### In a browser(UMD module):
@@ -48,7 +47,6 @@ console.log(hout)
 > **minify html:** [ex-html-minify.html](https://yuda-lyu.github.io/w-data-html-minify/examples/ex-html-minify.html) [[source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/docs/examples/ex-html-minify.html)]
 
 ```alias
-
 let wdhm = window['w-data-html-minify']
 // console.log(wdhm)
 
@@ -61,5 +59,4 @@ let hin = `
 let hout = wdhm(hin)
 console.log(hout)
 // => <html><head></head><body>abc</body></html>
-
 ```
