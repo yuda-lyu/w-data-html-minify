@@ -36,3 +36,30 @@ console.log(hout)
 // => <html><head></head><body>abc</body></html>
 
 ```
+
+### In a browser(UMD module):
+> **Note:** w-data-html-minify does not dependent on any package.
+
+[Necessary] Add script for w-data-html-minify.
+```alias
+<script src="https://cdn.jsdelivr.net/npm/w-data-html-minify@1.0.4/dist/w-data-html-minify.umd.js"></script>
+```
+
+> **minify html:** [ex-html-minify.html](https://yuda-lyu.github.io/w-data-html-minify/examples/ex-html-minify.html) [[source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/docs/examples/ex-html-minify.html)]
+
+```alias
+
+let wdhm = window['w-data-html-minify']
+// console.log(wdhm)
+
+let hin = `
+<html>
+    <head></head>
+    <body>abc</body>
+</html>
+`
+let hout = wdhm(hin)
+console.log(hout)
+// => <html><head></head><body>abc</body></html>
+
+```
