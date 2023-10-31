@@ -19,7 +19,7 @@ npm i w-data-html-minify
 ```
 
 #### Example:
-> **Link:** [[dev source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/g-read.mjs)]
+> **Link:** [[dev source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/g.test.minify.mjs)]
 ```alias
 import wdc from './src/WDataHtmlMinify.mjs'
 
