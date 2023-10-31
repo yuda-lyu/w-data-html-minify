@@ -21,7 +21,8 @@ npm i w-data-html-minify
 #### Example:
 > **Link:** [[dev source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/g.test.minify.mjs)]
 ```alias
-import wdc from './src/WDataHtmlMinify.mjs'
+import wdhm from './src/WDataHtmlMinify.mjs'
+// import wdhm from './dist/w-data-html-minify.umd.js'
 
 let hin = `
 <html>
