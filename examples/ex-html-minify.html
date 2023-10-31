@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-tw">
+
+    <head>
+        <meta http-equiv="content-type" content="text/html charset=UTF-8" />
+        <title>html-minify</title>
+
+        <!-- @babel/polyfill已廢棄 -->
+        <script nomodule src="https://cdn.jsdelivr.net/npm/@babel/polyfill@7.12.1/dist/polyfill.min.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/wsemi/dist/wsemi.umd.js"></script>
+    
+        <script _src="../src/htmlminifier.min.js"></script>
+        <script src="../dist/w-data-html-minify.umd.js"></script>
+
+    </head>
+
+    <body style="margin:0px; padding:20px;">
+
+        <div style="display:flex; align-items:center;">
+
+            <div style="width:100%;">
+
+                <div>input:</div>
+
+                <textarea id="src" style="width:100%; height:calc( 100vh - 50px );"></textarea>
+
+            </div>
+
+            <div style="padding:0px 15px 0px 20px;">
+
+                <div style="padding:5px;">
+                    <button onclick="cv('minify')">minify</button>
+                </div>
+                
+                <div style="padding:5px;">
+                    <button onclick="cv('minify+base64')">minify+base64</button>
+                </div>
+                
+            </div>
+            
+            <div style="width:100%;">
+
+                <div>output:</div>
+
+                <textarea id="tar" style="width:100%; height:calc( 100vh - 50px );"></textarea>
+
+            </div>
+                
+        </div>
+
+        <script>
+                
+            document.querySelector('#src').value = `<html>
+    <head></head>
+    <body>abc</body>
+</html>
+`
+
+        </script>
+
+        <script>
+
+            // let minify = require('html-minifier').minify
+            // console.log('minify',minify)
+
+            let wdhm = window['w-data-html-minify']
+            // console.log(wdhm)
+            
+            function cv(mode){
+                // console.log(mode)
+            
+                let hin = document.querySelector('#src').value
+
+                let hout = ''
+
+                if(mode.indexOf('minify')>=0){
+                    hout = wdhm(hin)
+                    // console.log('wdhm',hout)
+                }
+                if(mode.indexOf('base64')>=0){
+                    hout = window.btoa(hout)
+                    // console.log('str2b64',hout)
+                }
+
+                document.querySelector('#tar').value = hout
+
+            }
+            
+        </script>
+
+    </body>
+
+</html>
