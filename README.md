@@ -23,6 +23,7 @@ npm i w-data-html-minify
 ```alias
 import wdhm from './src/WDataHtmlMinify.mjs'
 // import wdhm from './dist/w-data-html-minify.umd.js'
+// import wdhm from 'w-data-html-minify'
 
 let hin = `
 <html>

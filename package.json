@@ -1,6 +1,6 @@
 {
   "name": "w-data-html-minify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/w-data-html-minify.umd.js",
   "dependencies": {
     "html-minifier": "^4.0.0",
