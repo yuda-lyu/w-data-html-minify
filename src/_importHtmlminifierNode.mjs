@@ -1,4 +1,4 @@
-import get from 'lodash/get'
+import get from 'lodash-es/get'
 import htmlMinifier from 'html-minifier'
 
 //同前端直接取用minify
