@@ -6,6 +6,7 @@ A tool for minify html.
 [![license](https://img.shields.io/npm/l/w-data-html-minify.svg?style=flat)](https://npmjs.org/package/w-data-html-minify) 
 [![gzip file size](http://img.badgesize.io/yuda-lyu/w-data-html-minify/master/dist/w-data-html-minify.umd.js.svg?compression=gzip)](https://github.com/yuda-lyu/w-data-html-minify)
 [![npm download](https://img.shields.io/npm/dt/w-data-html-minify.svg)](https://npmjs.org/package/w-data-html-minify) 
+[![npm download](https://img.shields.io/npm/dm/w-data-html-minify.svg)](https://npmjs.org/package/w-data-html-minify) 
 [![jsdelivr download](https://img.shields.io/jsdelivr/npm/hm/w-data-html-minify.svg)](https://www.jsdelivr.com/package/npm/w-data-html-minify)
 
 ## Documentation
@@ -41,7 +42,7 @@ console.log(hout)
 
 [Necessary] Add script for w-data-html-minify.
 ```alias
-<script src="https://cdn.jsdelivr.net/npm/w-data-html-minify@1.0.4/dist/w-data-html-minify.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/w-data-html-minify@1.0.5/dist/w-data-html-minify.umd.js"></script>
 ```
 
 > **minify html:** [ex-html-minify.html](https://yuda-lyu.github.io/w-data-html-minify/examples/ex-html-minify.html) [[source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/docs/examples/ex-html-minify.html)]
