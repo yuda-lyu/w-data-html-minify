@@ -42,7 +42,7 @@ console.log(hout)
 
 [Necessary] Add script for w-data-html-minify.
 ```alias
-<script src="https://cdn.jsdelivr.net/npm/w-data-html-minify@1.0.6/dist/w-data-html-minify.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/w-data-html-minify@1.0.7/dist/w-data-html-minify.umd.js"></script>
 ```
 
 > **minify html:** [ex-html-minify.html](https://yuda-lyu.github.io/w-data-html-minify/examples/ex-html-minify.html) [[source code](https://github.com/yuda-lyu/w-data-html-minify/blob/master/docs/examples/ex-html-minify.html)]
