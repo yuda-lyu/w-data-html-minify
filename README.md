@@ -4,7 +4,6 @@ A tool for minify html.
 ![language](https://img.shields.io/badge/language-JavaScript-orange.svg) 
 [![npm version](http://img.shields.io/npm/v/w-data-html-minify.svg?style=flat)](https://npmjs.org/package/w-data-html-minify) 
 [![license](https://img.shields.io/npm/l/w-data-html-minify.svg?style=flat)](https://npmjs.org/package/w-data-html-minify) 
-[![gzip file size](http://img.badgesize.io/yuda-lyu/w-data-html-minify/master/dist/w-data-html-minify.umd.js.svg?compression=gzip)](https://github.com/yuda-lyu/w-data-html-minify)
 [![npm download](https://img.shields.io/npm/dt/w-data-html-minify.svg)](https://npmjs.org/package/w-data-html-minify) 
 [![npm download](https://img.shields.io/npm/dm/w-data-html-minify.svg)](https://npmjs.org/package/w-data-html-minify) 
 [![jsdelivr download](https://img.shields.io/jsdelivr/npm/hm/w-data-html-minify.svg)](https://www.jsdelivr.com/package/npm/w-data-html-minify)
@@ -13,8 +12,8 @@ A tool for minify html.
 To view documentation or get support, visit [docs](https://yuda-lyu.github.io/w-data-html-minify/global.html).
 
 ## Installation
+
 ### Using npm(ES6 module):
-> **Note:** w-data-html-minify is mainly dependent on `html-minifier`.
 ```alias
 npm i w-data-html-minify
 ```
@@ -38,9 +37,8 @@ console.log(hout)
 ```
 
 ### In a browser(UMD module):
-> **Note:** w-data-html-minify does not dependent on any package.
 
-[Necessary] Add script for w-data-html-minify.
+Add script for w-data-html-minify.
 ```alias
 <script src="https://cdn.jsdelivr.net/npm/w-data-html-minify@1.0.7/dist/w-data-html-minify.umd.js"></script>
 ```

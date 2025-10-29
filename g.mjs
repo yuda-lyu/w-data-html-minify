@@ -12,4 +12,4 @@ let hout = wdhm(hin)
 console.log(hout)
 // => <html><head></head><body>abc</body></html>
 
-//node --experimental-modules --es-module-specifier-resolution=node g.test.minify.mjs
+//node g.test.minify.mjs
