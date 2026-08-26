@@ -1,10 +1,10 @@
 {
   "name": "w-data-html-minify",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "main": "dist/w-data-html-minify.umd.js",
   "dependencies": {
     "html-minifier": "^4.0.0",
-    "wsemi": "^1.8.79"
+    "wsemi": "^1.8.80"
   },
   "devDependencies": {
     "w-package-tools": "^1.1.15"
