@@ -1,13 +1,13 @@
 {
   "name": "w-data-html-minify",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "main": "dist/w-data-html-minify.umd.js",
   "dependencies": {
     "html-minifier": "^4.0.0",
-    "wsemi": "^1.9.41"
+    "wsemi": "^1.9.42"
   },
   "devDependencies": {
-    "w-package-tools": "^1.1.22"
+    "w-package-tools": "^1.1.23"
   },
   "scripts": {
     "test": "mocha --parallel \"test/*.test.mjs\" --timeout 180000",
