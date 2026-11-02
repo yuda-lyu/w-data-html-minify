@@ -21,4 +21,4 @@ let j = `let b64='${b64}'; export default b64`
 fs.writeFileSync('./src/_htmlminifierCoreBrowser.mjs', j, 'utf8')
 
 
-//node src/_convertHtmlminifierCode.mjs
+//node toolg/convertHtmlminifierCode.mjs

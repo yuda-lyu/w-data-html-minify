@@ -6,6 +6,8 @@ node toolg/cleanFolder.mjs
 
 node toolg/gDocsExams.mjs
 
+node toolg/convertHtmlminifierCode.mjs
+
 node toolg/gDistRollup.mjs
 
 git add .  -A
